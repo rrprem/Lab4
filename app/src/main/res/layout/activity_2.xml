@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vertguideline"
+        app:layout_constraintGuide_percent="0.50"
+        android:orientation="vertical" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/horguideline"
+        app:layout_constraintGuide_percent="0.50"
+        android:orientation="horizontal" />
+
+    <TextView
+        android:id="@+id/top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="100dp"
+        android:height="100dp"
+        android:text="@string/hi"
+        android:textSize="50sp"
+        android:textAlignment="center"
+        android:textColor="#050505"
+        android:layout_marginTop="0dp"
+        android:background="#D78CE6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="50dp"
+        android:height="30dp"
+        android:text="@string/hola"
+        android:textSize="20sp"
+        android:background="#2196F3"
+        app:layout_constraintTop_toBottomOf="@+id/horguideline"
+        app:layout_constraintLeft_toRightOf="@+id/vertguideline"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="100dp"
+        android:height="30dp"
+        android:text="@string/bonjour"
+        android:textSize="20sp"
+        android:textColor="#DE000000"
+        android:textAlignment="center"
+        android:background="#DEE6E6E6"
+        app:layout_constraintRight_toLeftOf="@+id/vertguideline"
+        app:layout_constraintBottom_toTopOf="@+id/horguideline"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
