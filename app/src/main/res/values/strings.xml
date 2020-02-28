@@ -1,11 +1,14 @@
 <resources>
     <string name="app_name">Lab 04</string>
-    <string name="top_right">top right</string>
+    <string name="top_right">top right </string>
     <string name="top_left">top left</string>
     <string name="bottom_left">bottom left</string>
-    <string name="bottom_right">bottom right</string>
+    <string name="bottom_right">bottom right </string>
     <string name="hi">Hi</string>
     <string name="hola">Hola</string>
     <string name="bonjour">Bonjour</string>
     <string name="view_hoo">View-hoo</string>
+    <string name="hihi">Hihi! :)</string>
+    <string name="click_me">Click Me!</string>
+    <string name="tt">T-T</string>
 </resources>
