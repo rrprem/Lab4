@@ -30,43 +30,71 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@+id/horguideee"
-        app
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/b2"
+        android:text="@string/one"
         />
 
     <Button
         android:id="@+id/b2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/horguideee"
+        app:layout_constraintLeft_toRightOf="@+id/b1"
+        app:layout_constraintRight_toLeftOf="@+id/b3"
+        android:text="@string/two"
         />
 
     <Button
         android:id="@+id/b3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/horguideee"
+        android:text="@string/three"
+        app:layout_constraintLeft_toRightOf="@+id/b2"
+        app:layout_constraintRight_toLeftOf="@+id/b4"
         />
 
     <Button
         android:id="@+id/b4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/horguideee"
+        android:text="@string/four"
+        app:layout_constraintLeft_toRightOf="@+id/b3"
+        app:layout_constraintRight_toRightOf="parent
+"
+
         />
 
     <Button
         android:id="@+id/b5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/b1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/b6"
+        android:text="@string/five"
         />
 
     <Button
         android:id="@+id/b6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/b2"
+        app:layout_constraintLeft_toRightOf="@+id/b5"
+        app:layout_constraintRight_toLeftOf="@+id/b7"
+        android:text="@string/six"
         />
 
     <Button
         android:id="@+id/b7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/b3"
+        app:layout_constraintLeft_toRightOf="@+id/b6"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="@string/seven"
         />
 
 
